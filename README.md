@@ -6,10 +6,10 @@ I love the original project and everything it does to streamline a developer env
 
 ## What’s Different
 
-- Custom scripts for installing apps I use daily (e.g., Keepassxc, Logseq, Thunderbird).
+- Added scripts for installing apps I use daily (e.g., Keepassxc, Logseq, Thunderbird).
 - Added the Clipboard Indicator gnome extension.  
 - Adjusted configurations to match my dev environment and style.  
-- Some additional aliases and convenience scripts for Docker
+- Some additional aliases for Docker
 - removed the following app scripts: Spotify, Retroarch, Basecamp, Hey, Obsidian, Typora, Xournalapp, 1password, Audacity, Doom Emacs, OBS, Signal, Whatsapp, Zed, Zoom
 
 ## Notes
