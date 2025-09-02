@@ -12,12 +12,9 @@ gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>BackSpace'
 # For keyboards that only have a start/stop button for music, like Logitech MX Keys Mini
 gsettings set org.gnome.settings-daemon.plugins.media-keys next "['<Shift>AudioPlay']"
 
-# Full-screen with title/navigation bar
-gsettings set org.gnome.desktop.wm.keybindings toggle-fullscreen "['<Shift>F11']"
-
 # Use 6 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
-gsettings set org.gnome.desktop.wm.preferences num-workspaces 6
+gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
 
 # Use alt for pinned apps
 gsettings set org.gnome.shell.keybindings switch-to-application-1 "['<Alt>1']"
@@ -55,12 +52,7 @@ gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/or
 # Start a new alacritty window (rather than just switch to the already open one)
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ name 'New Alacritty Window'
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ command 'alacritty'
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Shift><Alt>2'
-
-# Start a new Chrome window (rather than just switch to the already open one)
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ name 'New Chrome Window'
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ command 'google-chrome --new-window'
-gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/ binding '<Shift><Alt>1'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/ binding '<Shift><Alt>3'
 
 # Turn bightness down on Apple monitor (requires ASDControl installed)
 gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/ name 'Apple Brightness Down (ASDControl)'
