@@ -5,9 +5,8 @@ apps=(
 	"code.desktop"
 	"firefox_firefox.desktop"
 	"Alacritty.desktop"
-	"logseq.desktop"
+	"com.logseq.Logseq.desktop"
 	"thunderbird.desktop"
-	"Docker.desktop"
 )
 
 # Array to hold installed favorite apps
