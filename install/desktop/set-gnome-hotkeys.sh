@@ -12,7 +12,7 @@ gsettings set org.gnome.desktop.wm.keybindings begin-resize "['<Super>BackSpace'
 # For keyboards that only have a start/stop button for music, like Logitech MX Keys Mini
 gsettings set org.gnome.settings-daemon.plugins.media-keys next "['<Shift>AudioPlay']"
 
-# Use 6 fixed workspaces instead of dynamic mode
+# Use 3 fixed workspaces instead of dynamic mode
 gsettings set org.gnome.mutter dynamic-workspaces false
 gsettings set org.gnome.desktop.wm.preferences num-workspaces 3
 
