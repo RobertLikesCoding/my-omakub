@@ -6,10 +6,8 @@ apps=(
 	"firefox_firefox.desktop"
 	"Alacritty.desktop"
 	"logseq.desktop"
-	"steam.desktop"
-	"pinta_pinta.desktop"
+	"thunderbird.desktop"
 	"Docker.desktop"
-	"localsend_app.desktop"
 )
 
 # Array to hold installed favorite apps
@@ -21,6 +19,7 @@ desktop_dirs=(
 	"/usr/share/applications"
 	"/usr/local/share/applications"
 	"$HOME/.local/share/applications"
+	"/var/lib/snapd/desktop/applications"
 )
 
 # Check if a .desktop file exists for each app
