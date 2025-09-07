@@ -13,3 +13,9 @@ cp ~/.local/share/omakub/configs/ulauncher.desktop ~/.config/autostart/ulauncher
 gtk-launch ulauncher.desktop >/dev/null 2>&1
 sleep 2 # ensure enough time for ulauncher to set defaults
 cp ~/.local/share/omakub/configs/ulauncher.json ~/.config/ulauncher/settings.json
+
+# Set ulauncher to Super+Enter
+gsettings set org.gnome.desktop.wm.keybindings switch-input-source "@as []"
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ name 'Ulauncher'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ command 'ulauncher-toggle'
+gsettings set org.gnome.settings-daemon.plugins.media-keys.custom-keybinding:/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/ binding '<Super>enter'
