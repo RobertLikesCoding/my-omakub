@@ -2,7 +2,6 @@
 
 CHOICES=(
   "Cursor            AI Code Editor"
-  "RubyMine          IntelliJ's commercial Ruby editor"
   "Windsurf          Another AI Code Editor"
   "<< Back           "
 )
