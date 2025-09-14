@@ -6,7 +6,7 @@ apps=(
 	"firefox_firefox.desktop"
 	"Alacritty.desktop"
 	"com.logseq.Logseq.desktop"
-	"thunderbird.desktop"
+	"thunderbird_thunderbird.desktop"
 )
 
 # Array to hold installed favorite apps
